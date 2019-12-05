@@ -369,7 +369,14 @@ template {
   color: #fff;
 }
 
+.button--outline {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
 .container {
+  width: 85%;
   max-width: 1256px;
   margin: auto;
 }
@@ -418,10 +425,36 @@ template {
 
 .hero {
   padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   position: relative;
   background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
   height: 100vh;
   color: #fff;
+}
+
+.hero__content {
+  max-width: 670px;
+}
+
+.hero__text {
+  font-size: 22px;
+  max-width: 500px;
+}
+
+.hero__button {
+  margin-right: 20px;
 }
 
 .hero__instagram {
@@ -476,6 +509,13 @@ template {
 
 .title {
   margin: 0;
+  font-family: 'Yeseva One', cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.title--primary {
+  color: #E3B873;
 }
 
 *, *:before, *:after {
