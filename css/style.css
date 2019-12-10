@@ -649,6 +649,12 @@ body {
   color: #E3B873;
 }
 
+@media screen and (max-width: 1300px) {
+  .nav__item {
+    margin-right: 1.8rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 12px;
@@ -670,7 +676,7 @@ body {
   }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 576px) {
   .contacts__phone {
     margin-right: 0;
     color: #fff;
