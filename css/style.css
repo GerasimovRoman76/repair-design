@@ -736,8 +736,8 @@ img {
 .card__list {
   padding: 0 0 0 1rem;
   margin: 0;
-  font-size: 1.28rem;
-  line-height: 1.78rem;
+  font-size: 1.07rem;
+  line-height: 1.8rem;
   color: #959595;
   margin-bottom: 2.5rem;
 }
@@ -955,7 +955,7 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .section-title {
+  .design__section-title {
     margin-bottom: 3.5rem;
   }
   .section-title__heading {
