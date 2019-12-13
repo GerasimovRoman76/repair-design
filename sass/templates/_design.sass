@@ -1,0 +1,123 @@
+.design
+  background-color: $dark
+  &__section-title
+    color: $light
+    margin-bottom: 2.78rem
+  &__cards
+    margin-bottom: 1rem
+.section-title
+  &__description
+    max-width: 21.85rem
+  &__heading
+    font-size: 1.571rem
+    line-height: 138.6%
+    font-style: normal
+    font-weight: normal
+.rows
+  display: flex
+  flex-direction: column
+.cols
+  margin: auto
+.cards   // для стилей раздела design
+  &__image
+    display: block
+    width: 100%
+  &__text
+    position: relative
+    max-width: 18rem
+    margin-top: -9.41rem
+    padding: 1.28rem 2.21rem 0 2.21rem
+    background-color: #fff
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03)
+  &__title
+    font-family: 'Yeseva One', cursive
+    font-size: 1.07rem
+    font-style: normal
+    font-weight: normal
+    margin-top: 0
+    margin-bottom: 0.92rem
+  &__list
+    padding: 0 0 3.71rem 1rem
+    margin: 0
+    font-size: 0.92rem
+    line-height: 169.8%
+    color: $secondary
+    margin-bottom: 5rem
+    // overflow: hidden
+    // max-height: /12rem 
+  &__pricetag
+    position: absolute
+    left: 0
+    bottom: -1.42rem
+    font-size: 1.07rem
+    font-family: 'Yeseva One', cursive
+    font-style: normal
+    font-weight: normal
+    line-height: 138.6%
+    text-transform: uppercase
+    background-color: $primary
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3)
+    color: $light
+    padding: 0.78rem 3.35rem
+
+@media screen and ( min-width: 576px )
+  .cols
+    margin: auto
+  .cards
+    &__text
+      max-width: 23rem
+    &__title
+      font-size: 1.5rem
+    &__list
+      font-size: 1.3rem
+    &__pricetag
+      padding: 1rem 3.8rem
+      font-size: 1.5rem
+@media screen and ( min-width: 768px )
+  .design
+    background-color: $light
+  .section-title
+    color: $dark
+    &__description
+      max-width: 70%
+      font-size: 1.3rem
+  .rows
+    flex-direction: row
+    justify-content: space-between
+  .cols
+    flex-basis: 32%
+    margin: 0
+  .cards
+    &__text
+      margin: 0 auto
+      margin-top: -8.5rem
+@media screen and ( min-width: 1200px )
+  .row
+    display: flex
+    justify-content: space-between
+  .section-title
+    &__heading
+      font-size: 1.428rem
+      line-height: 2rem
+    &__description
+      max-width: 52.928rem
+      font-size: 1.428rem
+      line-height: 1.928rem
+  .cards
+    &__text
+      margin: 0 auto
+      margin-top: -8.5rem
+      max-width: 23.572rem
+    &__title
+      font-size: 1.28rem
+      line-height: 1.78rem
+    &__list
+      font-size: 1.28rem
+      line-height: 1.78rem
+    &__pricetag
+      font-family: 'Yeseva One', cursive
+      font-size: 1.29rem
+      font-style: normal
+      font-weight: normal
+      line-height: 1.78rem
+      padding: 1.21rem 4.78rem 1.21rem 2.35rem
