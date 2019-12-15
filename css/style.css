@@ -416,8 +416,11 @@ template {
   border: none;
   border-bottom: 1px solid rgba(54, 54, 54, 0.3);
   font-size: 1.285rem;
+  line-height: 1.785rem;
+  font-style: normal;
+  font-weight: 500;
   color: #fff;
-  padding: 0.5rem 0;
+  padding: 0.3rem 0;
 }
 
 .input::-webkit-input-placeholder {
@@ -439,6 +442,13 @@ template {
 .policy__checkbox {
   opacity: 0;
   visibility: hidden;
+}
+
+.policy__checkbox:checked + .policy__label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.14rem;
+  line-height: 1.571rem;
 }
 
 .policy__checkbox:checked + .policy__label::before {
@@ -1087,7 +1097,7 @@ img {
   position: relative;
   max-width: 36.36rem;
   background: #131313 url("../img/bg-lines.svg") no-repeat center;
-  padding: 2.357rem 3.5rem 1.928rem;
+  padding: 2.357rem 3.65rem 1.928rem;
   color: #fff;
 }
 
@@ -1105,10 +1115,13 @@ img {
 
 .modal__title {
   font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.85rem;
   font-size: 1.357rem;
   text-align: center;
   margin: 0;
-  margin-bottom: 2.428rem;
+  margin-bottom: 2rem;
 }
 
 .modal__form {
@@ -1122,11 +1135,11 @@ img {
 }
 
 .modal__input {
-  margin-bottom: 3.428rem;
+  margin-bottom: 3.3rem;
 }
 
 .modal__input:last-of-type {
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
 }
 
 .modal__policy {
@@ -1134,9 +1147,13 @@ img {
 }
 
 .modal__button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.92rem;
+  line-height: 2rem;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  padding: 1.35rem 4rem;
+  padding: 0.7rem 3.5rem;
 }
 
 @media screen and (max-width: 1300px) {
