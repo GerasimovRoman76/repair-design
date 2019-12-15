@@ -439,6 +439,13 @@ template {
   color: #fff;
 }
 
+.policy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.14rem;
+  line-height: 1.571rem;
+}
+
 .policy__checkbox {
   opacity: 0;
   visibility: hidden;
@@ -1135,11 +1142,11 @@ img {
 }
 
 .modal__input {
-  margin-bottom: 3.3rem;
+  margin-bottom: 3.4rem;
 }
 
 .modal__input:last-of-type {
-  margin-bottom: 0.1rem;
+  margin-bottom: -0.43rem;
 }
 
 .modal__policy {
