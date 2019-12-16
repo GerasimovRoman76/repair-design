@@ -1161,6 +1161,8 @@ img {
   -ms-flex-item-align: end;
       align-self: flex-end;
   padding: 0.7rem 3.5rem;
+  -webkit-transition: transparent;
+  transition: transparent;
 }
 
 @media screen and (max-width: 1300px) {
