@@ -14,12 +14,29 @@ img
     color: $light
   &-title
     text-align: center
+    &--left
+      text-align: left
     &__heading
       text-transform: uppercase
       font-family: 'Yeseva One', cursive
       font-size: 1.428rem
       line-height: 2rem
       margin-bottom: 1.05rem
+      &--primary
+        color: $primary
+    &__word
+      display: flex
+      align-items: center
+      &::after
+        content: ''
+        width: 92px
+        height: 1px
+        background-color: $primary
+        margin-left: 2rem
+    &__text
+      font-size: 1.28rem
+      line-height: 2.07rem
+      max-width: 31.57rem
     &__image
       display: flex
       justify-content: center
