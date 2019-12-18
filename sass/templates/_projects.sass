@@ -1,24 +1,38 @@
+.projects
+  padding-top: 7.5rem
 .swiper
+  &-wrapper
+    margin-bottom: 4.5rem
   &-slide
     display: flex
     flex-wrap: wrap
+    // margin-bottom: 2rem отступ до след секции
+    &__value
+      font-size: 1.07rem
+      line-height: 1.42rem
     &r
       &-image
-        margin-top: -13rem
+        margin-top: -16rem
+        margin-left: 3.05rem
+        margin-right: 2rem
     &__text
-      flex-basis: 50%
+      flex-basis: 39%
       margin-bottom: 2.42rem
-      padding-bottom: 2rem
+      padding-bottom: 0.3rem
     &__heading
-      font-size: 1.285rem
+      font-size: 1.295rem
       line-height: 1.78rem
+      font-weight: normal
       font-family: 'Yeseva One', cursive
       color: $primary
       text-transform: uppercase
-      margin-bottom: 0.64rem
+      margin-top: 0
+      margin-bottom: 0.5rem
   &-pagination
     &-bullet
       background-color: rgba($light, 0.3)
+      width: 0.7rem
+      height: 0.7rem
       &-active
         background-color: $light
   &-button
@@ -37,4 +51,4 @@
       background: url('../img/arrow-next.svg') no-repeat center
 .swiper-container-horizontal>.swiper-pagination-bullets
   width: auto
-  bottom: 0
+  bottom: -0.05rem

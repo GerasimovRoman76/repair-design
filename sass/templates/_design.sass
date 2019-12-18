@@ -24,7 +24,7 @@
 .cards   // для стилей раздела design
   &__image
     display: block
-    width: 100%
+    // width: 100%
   &__text
     position: relative
     max-width: 22.4rem
@@ -88,16 +88,19 @@
     &__description
       max-width: 70%
       font-size: 1.3rem
-  .rows
-    flex-direction: row
-    justify-content: space-between
   .cols
     flex-basis: 32%
-    margin: 0
+    // margin: 0
   .cards
     &__text
       margin: 0 auto
       margin-top: -8.5rem
+@media screen and ( min-width: 940px )
+  .rows
+    flex-direction: row
+    justify-content: space-between
+  .cols
+    margin: 0
 @media screen and ( min-width: 1200px )
   .row
     display: flex
