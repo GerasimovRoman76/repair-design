@@ -28,7 +28,7 @@ $(document).ready(function () {
     modal.toggleClass('modal--visible');
   });
 
-  var mySwiper = new Swiper('.swiper-container', {
+  var mySwiper = new Swiper ('.swiper-container', {
     loop: true,
     pagination: {
       el: '.swiper-pagination',
@@ -46,4 +46,5 @@ $(document).ready(function () {
 
   next.css('left', prev.width() + 10 + bullets.width() + 10)
   bullets.css('left', prev.width() + 10)
+
 });
