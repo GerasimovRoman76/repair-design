@@ -14,7 +14,14 @@
     font-size: 12px
   .nav
     &__item
-      margin-right: 1rem   
+      margin-right: 1rem
+  .swiper
+    &-slide
+      &__text
+        flex-basis: 50% 
+    &-button
+      &-prev, &-next
+        width: 4rem
 @media screen and ( max-width: 992px )
   .nav
     display: none
@@ -29,14 +36,42 @@
         max-width: 26.5rem
         margin-bottom: 2.15rem
 @media screen and ( max-width: 940px )
+  .projects
+    padding-top: 3rem
   .swiper
     &-slider
       &-image
-        margin-top: 0
+        margin: 0
+    &-wrapper
+      margin-bottom: 2rem
   .mobile
     &-order
       &-top
         order: -1
+  .section
+    &-title
+      &--left
+        display: flex
+        justify-content: center
+        text-align: center
+        flex-wrap: wrap
+        max-width: 90%
+        margin: auto
+      &__word
+        display: flex
+        justify-content: center
+        text-align: center
+        &::after
+          display: none
+      &__text
+        max-width: 90%
+        margin: auto
+        margin-bottom: 1rem
+  .col
+    &-40
+      width: 70%
+    &-60
+      width: 80%
 @media screen and ( max-width: 768px )
   .section
     &-title
@@ -51,7 +86,9 @@
       &-top
         order: -1
   .col
-    &-50
+    &-40
+      width: 90%
+    &-60
       width: 100%
 @media screen and ( max-width: 576px )
   .contacts
@@ -88,6 +125,8 @@
     &__logo
       line-height: 1rem
   .hero
+    &::after
+      display: none
     &__content
       max-width: 100%
       top: -1.5rem 
@@ -103,3 +142,37 @@
       width: 100%
       font-size: 0.9rem
       padding: 1.6rem 5rem
+  .section
+    &-title
+      &--left
+      margin-top: -2rem
+      &__heading
+        &--primary
+          font-size: 1.8rem
+          line-height: 139%
+          margin-bottom: 2rem 
+      &__text
+        font-size: 1.2rem
+        line-height: 158.48%
+        max-width: 100%
+        margin-bottom: 3.25rem
+  .swiper
+    &-slide
+      &__heading
+        font-size: 1.15rem
+        line-height: 138.6%
+        margin-bottom: 0.8rem
+      &__value
+        font-size: 1.15rem
+        line-height: 138%
+      &__text
+        flex-basis: 47%
+        margin-bottom: 2.2rem
+    &-slider
+      &-image
+        height: 16.8rem
+        margin: 0
+        margin-bottom: 2.5rem
+  .col
+    &-40
+      width: 100%
