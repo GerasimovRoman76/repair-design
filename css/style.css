@@ -844,7 +844,7 @@ img {
 
 .projects {
   padding-top: 7.5rem;
-  padding-bottom: 30rem;
+  padding-bottom: 25.3rem;
 }
 
 .swiper-wrapper {
@@ -926,7 +926,7 @@ img {
 
 .control__section-title {
   margin-bottom: 2.214rem;
-  margin-top: -30rem;
+  margin-top: -28.9rem;
 }
 
 .control__video {
@@ -952,19 +952,19 @@ img {
 }
 
 .control__text {
-  max-width: 40.785rem;
+  max-width: 40.7rem;
   margin: auto;
   margin-bottom: 4.285rem;
   text-align: center;
   font-size: 1.428rem;
-  line-height: 2.4rem;
+  line-height: 2.429rem;
 }
 
 .control__text::before {
   content: '';
   display: block;
   margin: auto;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   width: 55px;
   height: 2px;
   background-color: #E3B873;
@@ -996,18 +996,35 @@ img {
       flex-basis: 30%;
 }
 
+.control__input {
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  font-size: 1.285rem;
+  line-height: 1.714rem;
+}
+
 .control__label {
   bottom: -7px;
 }
 
 .control__button {
-  padding: 1.2857rem 4.7857rem;
+  font-weight: 500;
+  font-size: 1.07rem;
+  padding: 1.1rem 4.4rem;
+}
+
+.control__button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  border: 1px solid #E3B873;
+  color: #E3B873;
 }
 
 .control__policy {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  margin-top: 1.2rem;
+  margin-top: 0.7rem;
 }
 
 .control__policy-label {
