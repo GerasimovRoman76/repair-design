@@ -1755,7 +1755,7 @@ img {
   .control__text {
     font-size: 1.15rem;
     line-height: 174.8%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.4rem;
   }
   .control__text::before {
     margin-bottom: 1.1rem;
@@ -1769,12 +1769,19 @@ img {
     font-size: 1.5rem;
     line-height: 138.72%;
     color: #fff;
+    border-color: #fff;
+    padding-bottom: 0.4rem;
   }
   .control__input-group {
     margin-bottom: 5rem;
   }
   .control__policy {
     margin-top: -4.3rem;
+  }
+  .control__policy-label {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
   .control__button {
     -webkit-box-ordinal-group: 2;
@@ -1797,6 +1804,12 @@ img {
   .video__play {
     width: 5.5rem;
     height: 5.5rem;
+  }
+  .policy {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 1.571rem;
   }
   .policy__checkbox:checked + .policy__label {
     font-style: normal;
