@@ -489,6 +489,7 @@ template {
 }
 
 .container {
+  width: 85%;
   max-width: 1256px;
   margin: auto;
 }
@@ -1201,7 +1202,7 @@ img {
 }
 
 .design {
-  margin-bottom: 15rem;
+  margin-bottom: 13rem;
   background-color: #131313;
 }
 
@@ -1407,9 +1408,9 @@ img {
   background-color: #181818;
   max-width: 63.07rem;
   margin: auto;
-  margin-top: -20rem;
+  margin-top: -18.9rem;
   margin-bottom: 3.714rem;
-  padding: 2.5rem;
+  padding: 2.3rem;
 }
 
 .footer__title {
@@ -1438,7 +1439,7 @@ img {
 }
 
 .footer__input {
-  padding-top: 0.3rem;
+  padding-top: 0.05rem;
 }
 
 .footer__input-group {
@@ -1455,15 +1456,22 @@ img {
 }
 
 .footer__input-group--full-width {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1.85rem;
 }
 
 .footer__policy {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  margin-bottom: 3.6rem;
+  margin-bottom: 3.4rem;
 }
 
 .footer__button {
@@ -1903,6 +1911,52 @@ img {
   }
   .types {
     padding-top: 7rem;
+  }
+  .footer {
+    background: #131313;
+  }
+  .footer__wrap {
+    background: #131313;
+    margin-top: 0;
+    padding: 0;
+  }
+  .footer__title {
+    font-size: 1.7rem;
+    margin-bottom: 4.1rem;
+  }
+  .footer__input-group {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 4.79rem;
+  }
+  .footer__input-group--full-width {
+    margin-bottom: 0.25rem;
+  }
+  .footer__button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.07rem;
+    line-height: 1.85rem;
+    padding: 1.19rem 11.2rem;
+    border-radius: 0px;
+  }
+  .form__label {
+    font-size: 1.3rem;
+    line-height: 1.42rem;
+  }
+  .form__input {
+    font-size: 1.5rem;
+    line-height: 1.71rem;
+    padding: 0.55rem 0 0.5rem 0;
+    border-bottom: 1px solid #fff;
+  }
+  .policy {
+    margin-bottom: 5.6rem;
+  }
+  .policy__label--center {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 /*# sourceMappingURL=style.css.map */
