@@ -49,4 +49,50 @@ $(document).ready(function () {
 
   new WOW().init();
 
+  //Валидация формы
+  function validateForm(form) {
+  $(form).validate({
+    errorClass: "invalid",
+    rules: {
+    // Строчное правило
+      userName: {
+        required: true,
+        minlength: 2,
+        maxlength: 15
+      },
+      userPhone: {
+        required: true,
+        minlength: 18
+      },
+      // Правило-объект (блок)
+      userEmail: {
+        required: true,
+        email: true
+      }
+    }, // сообщения
+    messages: {
+      userName: {
+        required: "Имя обязательно",
+        minlength: "Имя не короче двух букв",
+        maxlength: "Имя не должно содержать больше 15 букв"
+      }, 
+      userPhone: {
+        required: "Телефон обязателен",
+        minlength: "Телефон не короче десяти цифр"
+      },
+      userEmail: {
+        required: "Обязательно укажите email",
+        email: "Введите в формате: name@domain.com"
+      }
+    }
+  });
+
+  // маска для телефона
+
+  $('[type=tel]').mask('+7 (000) 000-00-00', {placeholder: "+7 (___) ___-__-__"});  
+  }
+  validateForm('.modal__form');
+  validateForm('.control__form');
+  validateForm('.footer__form');
+
 });
