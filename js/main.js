@@ -72,17 +72,17 @@ $(document).ready(function () {
     }, // сообщения
     messages: {
       userName: {
-        required: "Имя обязательно",
+        required: "Заполните поле",
         minlength: "Имя не короче двух букв",
         maxlength: "Имя не должно содержать больше 15 букв"
       }, 
       userPhone: {
-        required: "Телефон обязателен",
+        required: "Заполните поле",
         minlength: "Телефон не короче десяти цифр"
       },
       userEmail: {
         required: "Обязательно укажите email",
-        email: "Введите в формате: name@domain.com"
+        email: "Введите корректный email"
       }
     }
   });
