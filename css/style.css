@@ -1411,6 +1411,7 @@ img {
 
 .footer {
   padding-top: 3rem;
+  background: url("../img/footer-bg.jpg") center no-repeat;
 }
 
 .footer__wrap {
@@ -1432,6 +1433,19 @@ img {
   text-align: center;
   margin-top: 0;
   margin-bottom: 3.214rem;
+}
+
+.footer__title--primary {
+  max-width: 35.8rem;
+  font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin: auto;
+  margin-bottom: 1.7rem;
 }
 
 .footer__form {
@@ -1488,9 +1502,46 @@ img {
   padding: 1.285rem 4.785rem;
 }
 
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.footer__icon-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-bottom: 2.8rem;
+}
+
+.footer__icon {
+  padding: 0 0.5rem;
+}
+
+.footer__map {
+  max-width: 66.071rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
 .footer__menu {
   background-color: #131313;
-  padding: 4.285rem 0;
+  padding: 3.5rem 0;
+}
+
+.footer__block {
+  margin-bottom: 4.7rem;
 }
 
 .modal {

@@ -68,7 +68,11 @@ $(document).ready(function () {
       userEmail: {
         required: true,
         email: true
-      }
+      },
+      userQuestion: {
+        required: true,
+        minlength: 5
+      },
     }, // сообщения
     messages: {
       userName: {
@@ -81,8 +85,12 @@ $(document).ready(function () {
         minlength: "Телефон не короче десяти цифр"
       },
       userEmail: {
-        required: "Обязательно укажите email",
+        required: "Заполните поле",
         email: "Введите корректный email"
+      }, 
+      userQuestion: {
+        required: "Заполните поле",
+        minlength: "Поле должно содержать не менее 5 символов"
       }
     }
   });
