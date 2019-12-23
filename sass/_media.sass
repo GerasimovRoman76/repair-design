@@ -237,6 +237,7 @@
       &-label
         justify-content: left
     &__button
+      width: 100%
       order: 1
       margin-top: 5.2rem
       margin-bottom: -8rem
@@ -277,7 +278,7 @@
       font-size: 1.7rem
       margin-bottom: 4.1rem
       &--primary
-        width: 26.8rem
+        max-width: 26.8rem
         font-size: 1.5rem
         line-height: 141.6%
     &__input
@@ -287,11 +288,12 @@
         &--full-width
           margin-bottom: 0.25rem
     &__button
+      max-width: 100%
       font-style: normal
       font-weight: 500
-      font-size: 1.07rem
-      line-height: 1.85rem
-      padding: 1.19rem 11.2rem
+      font-size: 1.3rem
+      line-height: 1.4rem
+      padding: 1.4rem 10.3rem
       border-radius: 0px
     &__block
       display: flex
@@ -322,3 +324,13 @@
       justify-content: flex-start
   .ymaps-2-1-75-map 
     max-height: 255px
+@media screen and ( max-width: 320px )
+  .footer
+    &__button
+      max-width: 100%
+      font-style: normal
+      font-weight: 500
+      font-size: 1.3rem
+      line-height: 1.4rem
+      padding: 1.4rem 4.3rem
+      border-radius: 0px

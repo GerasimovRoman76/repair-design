@@ -631,6 +631,10 @@ img {
   margin-top: 1.64rem;
 }
 
+.form__input {
+  outline: none;
+}
+
 .header {
   position: fixed;
   left: 0;
@@ -1410,16 +1414,16 @@ img {
 }
 
 .footer {
-  padding-top: 3rem;
-  background: url("../img/footer-bg.jpg") center no-repeat;
+  padding: 60px 0 0 0;
+  background: #131313 url("../img/footer-bg.jpg") no-repeat center/cover;
 }
 
 .footer__wrap {
   background-color: #181818;
   max-width: 63.07rem;
   margin: auto;
-  margin-top: -12.9rem;
-  margin-bottom: 0rem;
+  margin-top: -20.2rem;
+  margin-bottom: 3.6rem;
   padding: 2.3rem;
 }
 
@@ -1957,6 +1961,7 @@ img {
             justify-content: left;
   }
   .control__button {
+    width: 100%;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -2006,7 +2011,7 @@ img {
     margin-bottom: 4.1rem;
   }
   .footer__title--primary {
-    width: 26.8rem;
+    max-width: 26.8rem;
     font-size: 1.5rem;
     line-height: 141.6%;
   }
@@ -2019,11 +2024,12 @@ img {
     margin-bottom: 0.25rem;
   }
   .footer__button {
+    max-width: 100%;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.07rem;
-    line-height: 1.85rem;
-    padding: 1.19rem 11.2rem;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1.4rem 10.3rem;
     border-radius: 0px;
   }
   .footer__block {
@@ -2071,6 +2077,18 @@ img {
   }
   .ymaps-2-1-75-map {
     max-height: 255px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__button {
+    max-width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1.4rem 4.3rem;
+    border-radius: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
