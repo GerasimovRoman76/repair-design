@@ -1216,7 +1216,7 @@ img {
 }
 
 .design {
-  margin-bottom: 13rem;
+  margin-bottom: 0;
   background-color: #131313;
 }
 
@@ -1331,6 +1331,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .design {
+    margin-bottom: 13rem;
     background-color: #fff;
   }
   .design__section-title {
@@ -1374,7 +1375,7 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .design__section-title {
+  .row__section-title {
     margin-bottom: 3.5rem;
   }
   .section-title__heading {
@@ -1741,6 +1742,9 @@ img {
   }
   .col-60 {
     width: 80%;
+  }
+  .footer__wrap {
+    margin-top: 0;
   }
 }
 

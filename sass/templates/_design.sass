@@ -1,5 +1,5 @@
 .design
-  margin-bottom: 13rem //это отступ для верстки footer, пока нет блока с клиентами
+  margin-bottom: 0 
   background-color: $dark
   &__section-title
     color: $light
@@ -67,7 +67,7 @@
     color: $light
     padding: 0.82rem 3.76rem
 
-@media screen and ( min-width: 576px )
+@media screen and ( min-width: 576px )  
   .cols
     margin: auto
   .cards
@@ -82,6 +82,7 @@
       font-size: 1.5rem
 @media screen and ( min-width: 768px )
   .design
+    margin-bottom: 13rem
     background-color: $light
     &__section
       &-title
@@ -105,8 +106,7 @@
 @media screen and ( min-width: 1200px )
   .row
     display: flex
-    justify-content: space-between
-  .design
+    justify-content: space-between 
     &__section-title
       margin-bottom: 3.5rem
   .section-title
